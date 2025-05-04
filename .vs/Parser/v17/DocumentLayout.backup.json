@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot\\\u0418\u0437\u0443\u0447\u0435\u043D\u0438\u0435 \u043F\u0430\u0440\u0441\u0435\u0440\u0430\\Parser\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot\\\u0418\u0437\u0443\u0447\u0435\u043D\u0438\u0435 \u043F\u0430\u0440\u0441\u0435\u0440\u0430\\Parser\\Task.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:Task.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot\\\u0418\u0437\u0443\u0447\u0435\u043D\u0438\u0435 \u043F\u0430\u0440\u0441\u0435\u0440\u0430\\Parser\\Parser.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:Parser.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot\\\u0418\u0437\u0443\u0447\u0435\u043D\u0438\u0435 \u043F\u0430\u0440\u0441\u0435\u0440\u0430\\Parser\\FreeDay.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:FreeDay.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot\\\u0418\u0437\u0443\u0447\u0435\u043D\u0438\u0435 \u043F\u0430\u0440\u0441\u0435\u0440\u0430\\Parser\\Task.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:Task.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot\\\u0418\u0437\u0443\u0447\u0435\u043D\u0438\u0435 \u043F\u0430\u0440\u0441\u0435\u0440\u0430\\Parser\\Day.py||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FreeDay.py",
               "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot\\\u0418\u0437\u0443\u0447\u0435\u043D\u0438\u0435 \u043F\u0430\u0440\u0441\u0435\u0440\u0430\\Parser\\FreeDay.py",
               "RelativeDocumentMoniker": "FreeDay.py",
@@ -50,8 +50,7 @@
               "RelativeToolTip": "FreeDay.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-03T17:13:46.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T17:13:46.498Z"
             },
             {
               "$type": "Document",
@@ -63,17 +62,16 @@
               "RelativeToolTip": "Day.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-03T11:58:00.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T11:58:00.69Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Task.py",
               "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot\\\u0418\u0437\u0443\u0447\u0435\u043D\u0438\u0435 \u043F\u0430\u0440\u0441\u0435\u0440\u0430\\Parser\\Task.py",
               "RelativeDocumentMoniker": "Task.py",
-              "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot\\\u0418\u0437\u0443\u0447\u0435\u043D\u0438\u0435 \u043F\u0430\u0440\u0441\u0435\u0440\u0430\\Parser\\Task.py",
-              "RelativeToolTip": "Task.py",
+              "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot\\\u0418\u0437\u0443\u0447\u0435\u043D\u0438\u0435 \u043F\u0430\u0440\u0441\u0435\u0440\u0430\\Parser\\Task.py*",
+              "RelativeToolTip": "Task.py*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-05-03T10:20:40.721Z",
@@ -81,16 +79,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Parser.py",
               "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot\\\u0418\u0437\u0443\u0447\u0435\u043D\u0438\u0435 \u043F\u0430\u0440\u0441\u0435\u0440\u0430\\Parser\\Parser.py",
               "RelativeDocumentMoniker": "Parser.py",
-              "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot\\\u0418\u0437\u0443\u0447\u0435\u043D\u0438\u0435 \u043F\u0430\u0440\u0441\u0435\u0440\u0430\\Parser\\Parser.py*",
-              "RelativeToolTip": "Parser.py*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAhAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot\\\u0418\u0437\u0443\u0447\u0435\u043D\u0438\u0435 \u043F\u0430\u0440\u0441\u0435\u0440\u0430\\Parser\\Parser.py",
+              "RelativeToolTip": "Parser.py",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-11T14:32:17.409Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T14:32:17.409Z"
             }
           ]
         }

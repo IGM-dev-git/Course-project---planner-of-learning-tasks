@@ -56,7 +56,7 @@ print(f"client_id: {client_id}")
 print(f"tab_id: {tab_id}\n")
 
 
-#создание словарика
+#создание словарика для Post запроса
 data = {"session_code": session_code, "execution": execution,"client_id": client_id,"tab_id": tab_id,"username": "imgromov@edu.hse.ru","password": "HF$W1q?LYYu@","credentialId": "" }
 
 result = work.post(action, data=data,headers=headers,allow_redirects=True)#Отправка первого пост запроса с параметрами 
@@ -76,9 +76,6 @@ if form:
     
     # Отправляем финальный запрос
     final_response = work.post(form_action, data=form_data, headers=headers, allow_redirects=True)
-
-
-# print(final_response.text)
 
 
 
@@ -115,7 +112,6 @@ def IsExistTask(all_days=[]):
     return task_days
 
 def ParseDateAboutAllDay(task_days = []):   
-    dayWithFullTask = []
     arrayDays = [];
     for i in task_days:
 
@@ -129,16 +125,12 @@ def ParseDateAboutAllDay(task_days = []):
             
             newDay = FreeDay(theNumberOfTask,dataAboutDay); #Если в этот день ничего нет, то создается экземпляр "свободного дня" - наследника Day
             arrayDays.append(newDay);
-
-            # Походу надо пустой объект создавать
-
-            dayWithFullTask.append(i[1].find('span', class_="sr-only").text)
+           
 
         elif i[0]=="Пустой день":
             action = 0; # раз пустой день, так и не записываем ничего
 
         else:
-            data = []
 
             time = i[1].find('span', class_="sr-only").text # time содержит запись вида "1 событие, понедельник 12 мая"
             arrTemp = time.split(",") #Разделили по запятой
@@ -146,7 +138,6 @@ def ParseDateAboutAllDay(task_days = []):
             theNumberOfTask = arrTemp[0] #Взяли из сплит. массива данные о количестве
             dataAboutDay = arrTemp[1][1:] #Взяли из сплит. массива данные о дате дня
 
-            data.append(time) # убрать потом
 
             url = i[1].find('ul').find_all('a')
             Url = [f.get('href') for f in url if f.get('href') != '#' ]
@@ -161,10 +152,6 @@ def ParseDateAboutAllDay(task_days = []):
             newDay = Day(theNumberOfTask,dataAboutDay, arrayTasks);
             arrayDays.append(newDay);
 
-            data.append(Title)# убрать потом
-            data.append(Url)# убрать потом
-
-            dayWithFullTask.append(data)
 
     return arrayDays
 
