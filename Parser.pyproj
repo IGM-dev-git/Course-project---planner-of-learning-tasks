@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>55fa1bfd-3bbe-4aa9-a869-34ae8cb1c0eb</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Parser.py</StartupFile>
+    <StartupFile>Program.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,10 +21,20 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="FreeDay.py" />
-    <Compile Include="Task.py" />
+    <Compile Include="Core\Session.py" />
+    <Compile Include="Core\ParserLMS.py" />
+    <Compile Include="Core\__init__.py" />
+    <Compile Include="Models\FreeDay.py" />
+    <Compile Include="Models\Task.py" />
+    <Compile Include="Models\__init__.py" />
     <Compile Include="Parser.py" />
-    <Compile Include="Day.py" />
+    <Compile Include="Models\Day.py" />
+    <Compile Include="Core\Auth.py" />
+    <Compile Include="Program.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Core\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

@@ -10,6 +10,7 @@ from Day import Day
 from FreeDay import FreeDay
 from Task import Task
 
+#---------------- Начало работы с сайтом
 # Заголовок имитирующий реального пользователя
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -26,12 +27,14 @@ headers = {
     "Referer": "https://www.google.com/",
 }
 
+
 work = Session() #Запустили сессию, с которой в дальнейшем и работаем
 
 
 mainPageUrl = "https://edu.hse.ru/" #Заходим на главную страницу для получения кукки и имитации действия пользователя
 work.get(mainPageUrl,headers=headers)
 
+#---------------- Начало авторизации
 
 authPageUrl = "https://edu.hse.ru/auth/oidckc/"  #Переходим на страницу авторизации 
 response = work.get(authPageUrl,headers=headers)
@@ -62,10 +65,9 @@ data = {"session_code": session_code, "execution": execution,"client_id": client
 result = work.post(action, data=data,headers=headers,allow_redirects=True)#Отправка первого пост запроса с параметрами 
 
 
-
-
 soup = BeautifulSoup(result.text, 'lxml')
 form = soup.find("form")
+
 if form:
     form_action = form.get("action")
     form_data = {
@@ -77,7 +79,7 @@ if form:
     # Отправляем финальный запрос
     final_response = work.post(form_action, data=form_data, headers=headers, allow_redirects=True)
 
-
+#---------------- Авторизация закончена, далее возвращаемя на страницу календаря и продожаем работать с парсингом
 
 calendar = work.get("https://edu.hse.ru/calendar/view.php?view=month",headers=headers)
 
@@ -86,13 +88,14 @@ soup = BeautifulSoup(calendar.text, "lxml")
 info = soup.find("div",class_="calendarwrapper")
 fourWeek = info.find("table")
 weeks = fourWeek.find("tbody")
-weeks1=weeks.find_all("tr")
+weeks1=weeks.find_all("tr") # Массив данных по неделям (каждый элемент массива - массив с html кодом за неделю)
 
 all_days=[]
 for week in weeks1:
-    days = week.find_all("td")
-    all_days.extend(days)
+    days = week.find_all("td") # Дробим на кусочки - отдельные дни
+    all_days.extend(days) # Объединяя все дни в одном массиве дней (каждый элемент массива - массив с html кодом за день)
 
+#----------------  
     
 def IsExistTask(all_days=[]):
     task_days = []

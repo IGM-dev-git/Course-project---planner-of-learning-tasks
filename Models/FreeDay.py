@@ -1,4 +1,4 @@
-from Day import Day
+from Models.Day import Day
 
 
 class FreeDay(Day):

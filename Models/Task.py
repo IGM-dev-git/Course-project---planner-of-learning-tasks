@@ -1,13 +1,13 @@
-class Task: #Создали класс "Задание"
+class Task: #РЎРѕР·РґР°Р»Рё РєР»Р°СЃСЃ "Р—Р°РґР°РЅРёРµ"
 
-    #Создали конструктор с параметрами (с приватными полями - protected)
+    #РЎРѕР·РґР°Р»Рё РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ СЃ РїР°СЂР°РјРµС‚СЂР°РјРё (СЃ РїСЂРёРІР°С‚РЅС‹РјРё РїРѕР»СЏРјРё - protected)
     def __init__(self, time, name, url): 
 
         self._time = time;      
         self._name = name;
         self._url = url;
 
-    #Сеттеры для полей объекта
+    #РЎРµС‚С‚РµСЂС‹ РґР»СЏ РїРѕР»РµР№ РѕР±СЉРµРєС‚Р°
     def get_time(self):   
         return self._time;
 
@@ -17,7 +17,7 @@ class Task: #Создали класс "Задание"
     def get_url(self):
         return self._url;
 
-    # Переопределение метода Tostring
+    # РџРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ РјРµС‚РѕРґР° Tostring
     def __str__(self):
         text = f"- {self.get_name()} - {self.get_time()}"
         return text
