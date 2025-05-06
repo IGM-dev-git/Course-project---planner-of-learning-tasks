@@ -31,6 +31,7 @@
     <Compile Include="Models\Day.py" />
     <Compile Include="Core\Auth.py" />
     <Compile Include="Program.py" />
+    <Compile Include="TelegramBotAPI.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
