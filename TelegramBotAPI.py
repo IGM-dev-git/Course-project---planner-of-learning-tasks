@@ -7,7 +7,7 @@ TOKEN = '7706937394:AAEO4HWY8RubKHlnQbJRL51zVhThg89Du0o'
 # Инициализация бота
 bot = telebot.TeleBot('7706937394:AAEO4HWY8RubKHlnQbJRL51zVhThg89Du0o')
 
-# Хранение пользовательских данных (в памяти)
+# Хранение пользовательских данных
 user_data = {}  # {chat_id: {'state': '...', 'login': '...', 'password': '...', 'reminder': None}}
 
 # --- Функции создания клавиатур ---
