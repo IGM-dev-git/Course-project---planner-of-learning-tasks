@@ -1,7 +1,7 @@
 import telebot
 from telebot import types
 
-# Токен от BotFather
+# Токен для бота от BotFather
 TOKEN = '7706937394:AAEO4HWY8RubKHlnQbJRL51zVhThg89Du0o'
 
 # Инициализация бота
