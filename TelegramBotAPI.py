@@ -151,5 +151,5 @@ def show_commands(chat_id):
     """)
 
 # --- Запуск бота ---
-print("Бот запущен...")
+print("Бот запущен..")
 bot.polling(none_stop=True)
