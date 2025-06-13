@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\TelegramBotAPI.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:TelegramBotAPI.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Sqlite.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:Sqlite.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\TelegramBotAPI.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:TelegramBotAPI.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Program.py||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,13 +70,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TelegramBotAPI.py",
               "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\TelegramBotAPI.py",
               "RelativeDocumentMoniker": "TelegramBotAPI.py",
               "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\TelegramBotAPI.py",
               "RelativeToolTip": "TelegramBotAPI.py",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-05-05T13:40:34.334Z",
               "EditorCaption": ""
@@ -91,8 +91,7 @@
               "RelativeToolTip": "Program.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-04T15:09:54.666Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T15:09:54.666Z"
             },
             {
               "$type": "Document",
@@ -108,13 +107,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Sqlite.py",
               "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Sqlite.py",
               "RelativeDocumentMoniker": "Sqlite.py",
               "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Sqlite.py",
               "RelativeToolTip": "Sqlite.py",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-06-12T17:15:48.214Z",
               "EditorCaption": ""
@@ -129,8 +128,7 @@
               "RelativeToolTip": "Core\\ParserLMS.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-04T14:00:57.288Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T14:00:57.288Z"
             },
             {
               "$type": "Document",
@@ -142,8 +140,7 @@
               "RelativeToolTip": "Core\\Session.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-04T13:56:55.853Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T13:56:55.853Z"
             },
             {
               "$type": "Document",
@@ -155,8 +152,7 @@
               "RelativeToolTip": "Core\\Auth.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-04T07:46:27.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T07:46:27.553Z"
             },
             {
               "$type": "Document",
@@ -192,8 +188,7 @@
               "RelativeToolTip": "Core\\__Init__.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-04T16:07:19.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T16:07:19.013Z"
             },
             {
               "$type": "Document",
