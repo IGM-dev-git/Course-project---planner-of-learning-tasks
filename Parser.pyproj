@@ -27,10 +27,11 @@
     <Compile Include="Models\FreeDay.py" />
     <Compile Include="Models\Task.py" />
     <Compile Include="Models\__init__.py" />
-    <Compile Include="Parser.py" />
+    <Compile Include="Parser archive file.py" />
     <Compile Include="Models\Day.py" />
     <Compile Include="Core\Auth.py" />
     <Compile Include="Program.py" />
+    <Compile Include="Sqlite.py" />
     <Compile Include="TelegramBotAPI.py" />
   </ItemGroup>
   <ItemGroup>

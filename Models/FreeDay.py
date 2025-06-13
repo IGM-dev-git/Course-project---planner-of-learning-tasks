@@ -17,7 +17,7 @@ class FreeDay(Day):
 
     # Переопределение метода Tostring
     def __str__(self):
-        text = f"{self.get_data()} - Заданий: {self.get_theQuantityOfTask()}"
+        text = f"📅 {self.get_data()} - Заданий: {self.get_theQuantityOfTask()}"
         return text
     
 

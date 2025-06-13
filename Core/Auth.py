@@ -31,7 +31,7 @@ class AuthLMS:
         print(f"tab_id: {tab_id}\n")
 
 
-        #создание словарика для Post запроса
+        # Создание словаря для Post запроса
         data = {"session_code": session_code, "execution": execution,"client_id": client_id,"tab_id": tab_id,"username": "imgromov@edu.hse.ru","password": "HF$W1q?LYYu@","credentialId": "" }
 
         result = self.curSession.workSession.post(action, data=data,headers=self.curSession.header,allow_redirects=True) #Отправка первого пост запроса с параметрами 

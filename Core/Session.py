@@ -3,6 +3,7 @@ from requests import Session
 # Класс Session - хранит используемый заголовок и сессию обращения к LMS
 class SessionLMS:
 
+    # Конструктор класса 
     def __init__(self):
         self.header = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -16,8 +17,8 @@ class SessionLMS:
     "Sec-Fetch-Site": "none",
     "Sec-Fetch-User": "?1",
     "Cache-Control": "max-age=0",
-    "Referer": "https://www.google.com/",
-    };
+    "Referer": "https://www.google.com/"};
+
         self.workSession = Session()
 
 

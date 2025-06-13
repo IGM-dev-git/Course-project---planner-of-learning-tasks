@@ -19,9 +19,9 @@ class Day:
 
     # Переопределение метода Tostring
     def __str__(self):
-        text = f"{self.get_data()} - Заданий: {self.get_theQuantityOfTask()}\n"
+        text = f"📅 {self.get_data()} - Заданий: {self.get_theQuantityOfTask()}\n\n"
         for item in self.get_arrOfTasks():
-            text += f"\n{item}"
+            text += f"{item}"
         return text
     
 
