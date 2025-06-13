@@ -4,14 +4,16 @@ from Core.Auth import AuthLMS
 from Models.Day import Day
 from Models.FreeDay import FreeDay
 from Models.Task import Task
+from Sqlite import *
 
 class ParserLMS:
 
-    password = "imgromov@edu.hse.ru"; #Создать метод для получения логина и пароля от пользователя
-    login = "HF$W1q?LYYu@";
-
-    def __init__(self, currentSession):
+    login = Database.GetAllUserData()['login']
+    password = Database.GetAllUserData()['password']
+     
+    def __init__(self, currentSession, chat_id):
         self.curSession = currentSession;
+        self.chat_id = chat_id;
 
     # Метод для получения массива с html кодом каждого дня текущего месяца (элементами массива явзяются неразобранные блоки html кода каждого дня)
     def Parsing (self):

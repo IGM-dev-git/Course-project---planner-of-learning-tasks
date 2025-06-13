@@ -6,7 +6,7 @@ from Core.Session import SessionLMS
 def main():
     session = SessionLMS(); # Запуск сессии
 
-    x = ParserLMS(session); 
+    x = ParserLMS(session,chat_id); 
     arr = x.Parsing(); # Первая стадия парсинга - получения массива html кодов за каждый день 
     task_days = x.IsExistTask(arr) # Вторая часть парсинга - Определение типа дня
 
