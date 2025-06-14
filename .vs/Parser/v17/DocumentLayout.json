@@ -76,7 +76,7 @@
               "RelativeDocumentMoniker": "TelegramBotAPI.py",
               "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\TelegramBotAPI.py",
               "RelativeToolTip": "TelegramBotAPI.py",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAAAIUAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAHkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-05-05T13:40:34.334Z",
               "EditorCaption": ""
@@ -91,8 +91,7 @@
               "RelativeToolTip": "Program.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-04T15:09:54.666Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T15:09:54.666Z"
             },
             {
               "$type": "Document",
@@ -104,8 +103,7 @@
               "RelativeToolTip": "Models\\FreeDay.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-31T07:07:32.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T07:07:32.22Z"
             },
             {
               "$type": "Document",
@@ -117,8 +115,7 @@
               "RelativeToolTip": "Sqlite.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-06-12T17:15:48.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-12T17:15:48.214Z"
             },
             {
               "$type": "Document",
@@ -130,8 +127,7 @@
               "RelativeToolTip": "Core\\ParserLMS.py",
               "ViewState": "AgIAAHUAAAAAAAAAAAAAAIcAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-04T14:00:57.288Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T14:00:57.288Z"
             },
             {
               "$type": "Document",
@@ -143,8 +139,7 @@
               "RelativeToolTip": "Core\\Session.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-04T13:56:55.853Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T13:56:55.853Z"
             },
             {
               "$type": "Document",
@@ -156,8 +151,7 @@
               "RelativeToolTip": "Core\\Auth.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-04T07:46:27.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T07:46:27.553Z"
             },
             {
               "$type": "Document",
@@ -169,8 +163,7 @@
               "RelativeToolTip": "Parser archive file.py",
               "ViewState": "AgIAAH0AAAAAAAAAAAAAAJsAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-11T14:32:17.409Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T14:32:17.409Z"
             },
             {
               "$type": "Document",
@@ -182,8 +175,7 @@
               "RelativeToolTip": "Models\\__init__.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-04T16:06:46.245Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T16:06:46.245Z"
             },
             {
               "$type": "Document",
@@ -195,8 +187,7 @@
               "RelativeToolTip": "Core\\__Init__.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-04T16:07:19.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T16:07:19.013Z"
             },
             {
               "$type": "Document",
@@ -208,8 +199,7 @@
               "RelativeToolTip": "Models\\Task.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-03T10:20:40.721Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T10:20:40.721Z"
             },
             {
               "$type": "Document",
@@ -221,8 +211,7 @@
               "RelativeToolTip": "Models\\Day.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-03T11:58:00.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T11:58:00.69Z"
             }
           ]
         }
