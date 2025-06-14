@@ -11,30 +11,6 @@
       "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:Sqlite.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Program.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:Program.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Core\\ParserLMS.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:Core\\ParserLMS.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Core\\Auth.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:Core\\Auth.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Core\\__Init__.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:Core\\__Init__.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Core\\Session.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:Core\\Session.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Parser archive file.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:Parser archive file.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Models\\Task.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:Models\\Task.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -43,8 +19,32 @@
       "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:Models\\Day.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Core\\ParserLMS.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:Core\\ParserLMS.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Parser archive file.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:Parser archive file.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Program.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:Program.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Models\\FreeDay.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:Models\\FreeDay.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Core\\Session.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:Core\\Session.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Core\\Auth.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:Core\\Auth.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Core\\__Init__.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:Core\\__Init__.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Models\\__init__.py||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -76,26 +76,27 @@
               "RelativeDocumentMoniker": "TelegramBotAPI.py",
               "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\TelegramBotAPI.py*",
               "RelativeToolTip": "TelegramBotAPI.py*",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAFkAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAIUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-05-05T13:40:34.334Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Program.py",
               "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Program.py",
               "RelativeDocumentMoniker": "Program.py",
               "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Program.py",
               "RelativeToolTip": "Program.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-04T15:09:54.666Z"
+              "WhenOpened": "2025-05-04T15:09:54.666Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "FreeDay.py",
               "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Models\\FreeDay.py",
               "RelativeDocumentMoniker": "Models\\FreeDay.py",
@@ -103,7 +104,8 @@
               "RelativeToolTip": "Models\\FreeDay.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-31T07:07:32.22Z"
+              "WhenOpened": "2025-05-31T07:07:32.22Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -113,58 +115,62 @@
               "RelativeDocumentMoniker": "Sqlite.py",
               "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Sqlite.py",
               "RelativeToolTip": "Sqlite.py",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAB0AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-06-12T17:15:48.214Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ParserLMS.py",
               "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Core\\ParserLMS.py",
               "RelativeDocumentMoniker": "Core\\ParserLMS.py",
               "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Core\\ParserLMS.py",
               "RelativeToolTip": "Core\\ParserLMS.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAIcAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-04T14:00:57.288Z"
+              "WhenOpened": "2025-05-04T14:00:57.288Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Session.py",
               "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Core\\Session.py",
               "RelativeDocumentMoniker": "Core\\Session.py",
               "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Core\\Session.py",
               "RelativeToolTip": "Core\\Session.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-04T13:56:55.853Z"
+              "WhenOpened": "2025-05-04T13:56:55.853Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Auth.py",
               "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Core\\Auth.py",
               "RelativeDocumentMoniker": "Core\\Auth.py",
               "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Core\\Auth.py",
               "RelativeToolTip": "Core\\Auth.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-04T07:46:27.553Z"
+              "WhenOpened": "2025-05-04T07:46:27.553Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Parser archive file.py",
               "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Parser archive file.py",
               "RelativeDocumentMoniker": "Parser archive file.py",
               "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Parser archive file.py",
               "RelativeToolTip": "Parser archive file.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAAAJsAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-11T14:32:17.409Z"
+              "WhenOpened": "2025-03-11T14:32:17.409Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -176,11 +182,12 @@
               "RelativeToolTip": "Models\\__init__.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-04T16:06:46.245Z"
+              "WhenOpened": "2025-05-04T16:06:46.245Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "__init__.py (Core)",
               "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Core\\__Init__.py",
               "RelativeDocumentMoniker": "Core\\__Init__.py",
@@ -188,31 +195,34 @@
               "RelativeToolTip": "Core\\__Init__.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-04T16:07:19.013Z"
+              "WhenOpened": "2025-05-04T16:07:19.013Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "Task.py",
               "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Models\\Task.py",
               "RelativeDocumentMoniker": "Models\\Task.py",
-              "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Models\\Task.py",
-              "RelativeToolTip": "Models\\Task.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAZAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Models\\Task.py*",
+              "RelativeToolTip": "Models\\Task.py*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-03T10:20:40.721Z"
+              "WhenOpened": "2025-05-03T10:20:40.721Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "Day.py",
               "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Models\\Day.py",
               "RelativeDocumentMoniker": "Models\\Day.py",
               "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Models\\Day.py",
               "RelativeToolTip": "Models\\Day.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-03T11:58:00.69Z"
+              "WhenOpened": "2025-05-03T11:58:00.69Z",
+              "EditorCaption": ""
             }
           ]
         }

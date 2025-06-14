@@ -8,21 +8,26 @@ from Sqlite import *
 
 class ParserLMS:
 
-    login = Database.GetAllUserData()['login']
-    password = Database.GetAllUserData()['password']
      
-    def __init__(self, currentSession, chat_id):
+    def __init__(self, currentSession, chat_id, db):
         self.curSession = currentSession;
         self.chat_id = chat_id;
+        self.dataBase = db;
+
+    
+    
 
     # Метод для получения массива с html кодом каждого дня текущего месяца (элементами массива явзяются неразобранные блоки html кода каждого дня)
     def Parsing (self):
 
+        login = self.dataBase.GetAllUserData(self.chat_id)['login']
+        password = self.dataBase.GetAllUserData(self.chat_id)['password']
+
         mainPageUrl = "https://edu.hse.ru/"; #Заходим на главную страницу для получения кукки и имитации действия пользователя
         self.curSession.workSession.get(mainPageUrl,headers=self.curSession.header);
 
-        login = AuthLMS(self.curSession)
-        login.Login(self.login,self.password)
+        Auth = AuthLMS(self.curSession)
+        Auth.Login(login,password)
 
         calendar = self.curSession.workSession.get("https://edu.hse.ru/calendar/view.php?view=month",headers=self.curSession.header)
 
@@ -114,6 +119,33 @@ class ParserLMS:
 
 
         return arrayDays
+
+    # Метод деления массива со всеми днями на недели согласно началу месяца
+    def DevisionByWeek(self,arrayDays):
+
+        weeks = []  # Итоговый двухуровневый массив недель
+        currentWeek = []  # Текущая неделя
+    
+        for day in arrayDays:
+            
+            if len(currentWeek) != 7 and day._data.split(" ")[0] != "Понедельник":  # Если текущая неделя пуста И это не понедельник, продолжаем накапливать дни
+                currentWeek.append(day)
+            else:
+                
+                # Если накопили 7 дней или дошли до воскресенья
+                if len(currentWeek) >= 7 or day._data.split(" ")[0] == "Понедельник":
+                    weeks.append(currentWeek)
+                    currentWeek = []
+                    currentWeek.append(day)
+    
+        # Добавляем последнюю неполную неделю, если остались дни
+        if currentWeek:
+            weeks.append(currentWeek)
+    
+        return weeks
+
+
+
 
 
 

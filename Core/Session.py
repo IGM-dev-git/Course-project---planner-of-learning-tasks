@@ -21,6 +21,9 @@ class SessionLMS:
 
         self.workSession = Session()
 
+    def ResetSession(self):
+        self.workSession = Session();
+
 
 
 

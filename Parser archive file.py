@@ -6,9 +6,9 @@ from time import sleep # позволяет отправлять запросы 
 # для вызова использовать "sleep(2)" время указывается в сукундах
 from urllib.parse import urlparse, parse_qs # Что это вообще такое - разобраться
 
-from Day import Day
-from FreeDay import FreeDay
-from Task import Task
+from Models.Day import Day
+from Models.FreeDay import FreeDay
+from Models.Task import Task
 
 #---------------- Начало работы с сайтом
 # Заголовок имитирующий реального пользователя

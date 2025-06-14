@@ -19,7 +19,7 @@ class Task: #Создали класс "Задание"
 
     # Переопределение метода Tostring
     def __str__(self):
-        text = f"• {self.get_name()} - в{self.get_time()}"
+        text = f"• {self.get_name()} в{self.get_time()}"
         return text
     
 

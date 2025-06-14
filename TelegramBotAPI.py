@@ -1,6 +1,7 @@
 import telebot
 from telebot import types
-
+from Core.ParserLMS import *
+from Core.Session import *
 from Sqlite import Database
 
 # Токен для бота от BotFather
@@ -10,6 +11,7 @@ TOKEN = '7706937394:AAEO4HWY8RubKHlnQbJRL51zVhThg89Du0o'
 bot = telebot.TeleBot('7706937394:AAEO4HWY8RubKHlnQbJRL51zVhThg89Du0o')
 
 db = Database() # Создали экземпляр базы данных
+session = SessionLMS(); # Запуск сессии
 
 # # Хранение пользовательских данных
 # user_data = {}  # {chat_id: {'state': '...', 'login': '...', 'password': '...'}}
@@ -48,7 +50,7 @@ def get_logged_in_menu():
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
     chat_id = message.chat.id
-    db.AddUserData(chat_id,status='logged_out') # Добавили пользователя в БД
+    db.AddUserData(chat_id,status='logged_out') # Добавили пользователя. Тут именно добавление новых данных, а не обнавление уже имеющихся в БД
     #user_data[chat_id] = {'state': 'logged_out'}
     bot.send_message(chat_id, "Привет! 👋\n\nЭтот бот поможет тебе следить за дедлайнами и управлять учётной записью ЛМС.\nНажмите на нужную кнопку ниже.", reply_markup=get_main_menu())
 
@@ -60,15 +62,17 @@ def handle_messages(message):
 
     user_data = db.GetUserStatus(chat_id) # Пытаемся получить статус пользователя
     if user_data == None: # Если пользователь не был создан метод возвращает None
-        db.AddUserData(chat_id,status='logged_out') # Добавляем пользователя
+        db.AddUserData(chat_id,status='logged_out') # Добавляем пользователя. Тут именно добавление новых данных, а не обнавление уже имеющихся в БД
         current_state = db.GetUserStatus(chat_id) # Получаем его статус
     else:
         current_state = db.GetUserStatus(chat_id) # Если же пользовател был, то сразу же получаем статус
 
     # --- Главное меню обработка состояний (пользователь не вошёл) ---
+    #Далее пользователь уже строга авторизован, поэтому можно обновлять данные в методе AddUserData, запрашивая текущие данные из бд
     if current_state == 'logged_out':
         if text == "🔐 Войти в ЛМС":
-            db.AddUserData(chat_id,status = 'awaiting_login')
+            AllData = db.GetAllUserData(chat_id) # Получили текущие данные пользователя из бд
+            db.AddUserData(chat_id,status = 'awaiting_login',login = AllData['login'], password = AllData['password']) # Обновляем состояние пользвателя
             bot.send_message(chat_id, "Введите ваш логин:")
 
         elif text == "❓ FAQ":
@@ -82,32 +86,36 @@ def handle_messages(message):
 
     # --- Авторизация: ввод логина ---
     elif db.GetUserStatus(chat_id) == 'awaiting_login':
-        db.AddUserData(chat_id, status='awaiting_password', login=text)
+        AllData = db.GetAllUserData(chat_id) # Получили текущие данные пользователя из бд
+        db.AddUserData(chat_id, status='awaiting_password', login=text, password = AllData['password']) #Обновили статус и логин пользователя
         bot.send_message(chat_id, "Введите ваш пароль:")
 
     # --- Авторизация: ввод пароля ---
     elif db.GetUserStatus(chat_id) == 'awaiting_password':
-        db.AddUserData(chat_id, status='awaiting_password', password = text) # Записываем полученный пароль в БД
+        AllData = db.GetAllUserData(chat_id) # Получили текущие данные пользователя из бд
+        db.AddUserData(chat_id, status='awaiting_password',login = AllData['login'], password = text) # Записываем полученный пароль в БД (обновляем его значение)
         
-        try:
-            x = ParserLMS(session,chat_id); 
-            arr = x.Parsing(); # Первая стадия парсинга - получения массива html кодов за каждый день 
-            task_days = x.IsExistTask(arr) # Вторая часть парсинга - Определение типа дня
+        
+        x = ParserLMS(session,chat_id,db); 
+        arr = x.Parsing(); # Первая стадия парсинга - получения массива html кодов за каждый день 
+        task_days = x.IsExistTask(arr) # Вторая часть парсинга - Определение типа дня
 
-            dayWithFullTask = x.ParseDateAboutAllDay(task_days) # Третья часть парсинга - парсинг и на выходе получение массива объектов Day
+        global dayWithFullTask
+        dayWithFullTask = x.ParseDateAboutAllDay(task_days) # Третья часть парсинга - парсинг и на выходе получение массива объектов Day
             
-            # Только в случае успеха, т.е. если нет ошибки в парсинге
-            bot.send_message(chat_id, f"✅ Вы успешно вошли в аккаунт *{login}*", parse_mode='Markdown')
+                # Только в случае успеха, т.е. если нет ошибки в парсинге
+        bot.send_message(chat_id, f"✅ Вы успешно вошли в аккаунт *{db.GetAllUserData(chat_id)['login']}*", parse_mode='Markdown')
 
-            db.AddUserData(chat_id, status='logged_in')
-            bot.send_message(chat_id, "Выберите действие:", reply_markup=get_logged_in_menu())
-
-
-        except:
-            bot.send_message(chat_id, "Введены недействительные данные логина и пароля. Пожалуйста повторно введите данные, используя соответсвующую функцию")
-            db.AddUserData(chat_id, status='logged_out', login = None,password = None)
+        AllData = db.GetAllUserData(chat_id) # Получили текущие данные пользователя из бд
+        db.AddUserData(chat_id, status='logged_in', login = AllData['login'], password = AllData['password'])
+        bot.send_message(chat_id, "Выберите действие:", reply_markup=get_logged_in_menu())
 
 
+        # except Exception as u:
+        #     bot.send_message(chat_id, "Введены недействительные данные логина и пароля. Пожалуйста повторно введите данные, используя соответсвующую функцию")
+        #     db.AddUserData(chat_id, status='logged_out', login = None,password = None)
+
+        #     print (u)
 
         
         
@@ -115,12 +123,23 @@ def handle_messages(message):
     # --- Меню после авторизации ---
     elif db.GetUserStatus(chat_id) == 'logged_in':
         if text == "📅 Посмотреть дедлайны":
-            #Заменить на реальную реализацию
-            bot.send_message(chat_id, "📌 Ближайшие дедлайны:\n1. Домашнее задание по математике — 05.04.2025\n2. Эссе по литературе — 08.04.2025")
+            y = ParserLMS(session,chat_id,db); 
+            arr = y.Parsing(); # Первая стадия парсинга - получения массива html кодов за каждый день 
+            task_days = y.IsExistTask(arr) # Вторая часть парсинга - Определение типа дня
+
+            
+            dayWithFullTask = y.ParseDateAboutAllDay(task_days) # Третья часть парсинга - парсинг и на выходе получение массива объектов Day
+
+            result = y.DevisionByWeek(dayWithFullTask)
+            session.ResetSession()
+            for i in result[1]:
+                bot.send_message(chat_id, i)
+            
 
 
         elif text == "🚪 Выйти из аккаунта":
             db.AddUserData(chat_id, status='logged_out', login=None, password=None) # Затираем данные логина и пароля (при этом не удаляем самого пользователя из бд)
+            session.ResetSession()
             bot.send_message(chat_id, "🚪 Вы вышли из аккаунта.", reply_markup=get_main_menu())
 
         elif text == "❓ FAQ":
