@@ -85,6 +85,7 @@ def handle_messages(message):
             bot.send_message(chat_id, "Не понял вас. Вот доступные команды:", reply_markup=get_main_menu())
 
     # --- Авторизация: ввод логина ---
+
     elif db.GetUserStatus(chat_id) == 'awaiting_login':
         AllData = db.GetAllUserData(chat_id) # Получили текущие данные пользователя из бд
         db.AddUserData(chat_id, status='awaiting_password', login=text, password = AllData['password']) #Обновили статус и логин пользователя
@@ -95,30 +96,30 @@ def handle_messages(message):
         AllData = db.GetAllUserData(chat_id) # Получили текущие данные пользователя из бд
         db.AddUserData(chat_id, status='awaiting_password',login = AllData['login'], password = text) # Записываем полученный пароль в БД (обновляем его значение)
         
-        
-        x = ParserLMS(session,chat_id,db); 
-        arr = x.Parsing(); # Первая стадия парсинга - получения массива html кодов за каждый день 
-        task_days = x.IsExistTask(arr) # Вторая часть парсинга - Определение типа дня
+        try:
+            x = ParserLMS(session,chat_id,db); 
+            arr = x.Parsing(); # Первая стадия парсинга - получения массива html кодов за каждый день 
+            task_days = x.IsExistTask(arr) # Вторая часть парсинга - Определение типа дня
 
-        global dayWithFullTask
-        dayWithFullTask = x.ParseDateAboutAllDay(task_days) # Третья часть парсинга - парсинг и на выходе получение массива объектов Day
+            global dayWithFullTask
+            dayWithFullTask = x.ParseDateAboutAllDay(task_days) # Третья часть парсинга - парсинг и на выходе получение массива объектов Day
             
-                # Только в случае успеха, т.е. если нет ошибки в парсинге
-        bot.send_message(chat_id, f"✅ Вы успешно вошли в аккаунт *{db.GetAllUserData(chat_id)['login']}*", parse_mode='Markdown')
+                    # Только в случае успеха, т.е. если нет ошибки в парсинге
+            bot.send_message(chat_id, f"✅ Вы успешно вошли в аккаунт *{db.GetAllUserData(chat_id)['login']}*", parse_mode='Markdown')
 
-        AllData = db.GetAllUserData(chat_id) # Получили текущие данные пользователя из бд
-        db.AddUserData(chat_id, status='logged_in', login = AllData['login'], password = AllData['password'])
-        bot.send_message(chat_id, "Выберите действие:", reply_markup=get_logged_in_menu())
+            AllData = db.GetAllUserData(chat_id) # Получили текущие данные пользователя из бд
+            db.AddUserData(chat_id, status='logged_in', login = AllData['login'], password = AllData['password'])
+            bot.send_message(chat_id, "Выберите действие:", reply_markup=get_logged_in_menu())
+
+            session.ResetSession()
 
 
-        # except Exception as u:
-        #     bot.send_message(chat_id, "Введены недействительные данные логина и пароля. Пожалуйста повторно введите данные, используя соответсвующую функцию")
-        #     db.AddUserData(chat_id, status='logged_out', login = None,password = None)
+        except Exception as u:
+            bot.send_message(chat_id, "Внимание!\nВведены недействительные данные логина и пароля. Пожалуйста повторно введите данные, используя соответсвующую функцию")
+            db.AddUserData(chat_id, status='logged_out', login = None,password = None)
 
-        #     print (u)
+            print (u)
 
-        
-        
 
     # --- Меню после авторизации ---
     elif db.GetUserStatus(chat_id) == 'logged_in':
@@ -129,11 +130,16 @@ def handle_messages(message):
 
             
             dayWithFullTask = y.ParseDateAboutAllDay(task_days) # Третья часть парсинга - парсинг и на выходе получение массива объектов Day
-
+            global result
             result = y.DevisionByWeek(dayWithFullTask)
             session.ResetSession()
-            for i in result[1]:
-                bot.send_message(chat_id, i)
+
+            
+            arr = ChoosePrintOFWeek(chat_id, result, dayWithFullTask)
+            global counterWeeks
+            counterWeeks=arr[0]
+            markup = arr[1]
+            bot.send_message(chat_id, "Выберите неделю:", reply_markup=markup)
             
 
 
@@ -147,6 +153,13 @@ def handle_messages(message):
 
         elif text == "📋 Список команд":
             show_commands(chat_id)
+
+        elif text in  counterWeeks:   
+            week_index = counterWeeks.index(message.text)
+            for task in result[week_index]:
+                bot.send_message(chat_id, task)
+
+            bot.send_message(chat_id, "Выберите действие:", reply_markup=get_logged_in_menu())
 
         else:
             bot.send_message(chat_id, "Неизвестная команда. Показываю список доступных команд:", reply_markup=get_logged_in_menu())
@@ -167,6 +180,26 @@ def show_commands(chat_id):
 - ❓ FAQ — получить полезную информацию
 - 📋 Список команд — вызвать это меню
     """)
+
+def ChoosePrintOFWeek(chat_id, arrayWeeks, arrayOfTasks):
+    counterButton = len(arrayWeeks);
+
+    counterWeeks= []
+
+    for item in arrayWeeks:
+        counterWeeks.append(f'Неделя с {str(item[0]._data.split(" ")[1])} {str(item[0]._data.split(" ")[2])} до {str(item[-1]._data.split(" ")[1])} {str(item[-1]._data.split(" ")[2])}')
+
+
+    markup = types.ReplyKeyboardMarkup(resize_keyboard=True,one_time_keyboard=True)
+    for week in counterWeeks:
+        markup.add(types.KeyboardButton(week))
+    
+    
+
+    return [counterWeeks, markup]
+
+    
+
 
 # --- Запуск бота ---
 print("Бот запущен..")
