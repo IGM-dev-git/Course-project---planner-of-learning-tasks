@@ -2,9 +2,8 @@ from unittest import result
 from requests import Session
 from bs4 import BeautifulSoup
 
-from time import sleep # позволяет отправлять запросы с промежутком времени
-# для вызова использовать "sleep(2)" время указывается в сукундах
-from urllib.parse import urlparse, parse_qs # Что это вообще такое - разобраться
+
+from urllib.parse import urlparse, parse_qs 
 
 from Models.Day import Day
 from Models.FreeDay import FreeDay
@@ -28,7 +27,7 @@ headers = {
 }
 
 
-work = Session() #Запустили сессию, с которой в дальнейшем и работаем
+work = Session() # Запустили сессию, с которой в дальнейшем и работаем
 
 
 mainPageUrl = "https://edu.hse.ru/" #Заходим на главную страницу для получения кукки и имитации действия пользователя
@@ -62,7 +61,7 @@ print(f"tab_id: {tab_id}\n")
 #создание словарика для Post запроса
 data = {"session_code": session_code, "execution": execution,"client_id": client_id,"tab_id": tab_id,"username": "imgromov@edu.hse.ru","password": "HF$W1q?LYYu@","credentialId": "" }
 
-result = work.post(action, data=data,headers=headers,allow_redirects=True)#Отправка первого пост запроса с параметрами 
+result = work.post(action, data=data,headers=headers,allow_redirects=True) #Отправка первого пост запроса с параметрами 
 
 
 soup = BeautifulSoup(result.text, 'lxml')

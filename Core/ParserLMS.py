@@ -14,10 +14,28 @@ class ParserLMS:
         self.chat_id = chat_id;
         self.dataBase = db;
 
-    
-    
+    def CheckCorrectAuth(self): # Метод для проверки валидности данных (в случае неправильных данных упадет в ошибку в блоке кода в 
+        #TelegramBotApi try поймает ошибку ошибки авторизации)
 
-    # Метод для получения массива с html кодом каждого дня текущего месяца (элементами массива явзяются неразобранные блоки html кода каждого дня)
+        login = self.dataBase.GetAllUserData(self.chat_id)['login']
+        password = self.dataBase.GetAllUserData(self.chat_id)['password']
+
+        mainPageUrl = "https://edu.hse.ru/"; #Заходим на главную страницу для получения кукки и имитации действия пользователя
+        self.curSession.workSession.get(mainPageUrl,headers=self.curSession.header);
+
+        Auth = AuthLMS(self.curSession)
+        Auth.Login(login,password)
+
+        calendar = self.curSession.workSession.get("https://edu.hse.ru/calendar/view.php?view=month",headers=self.curSession.header)
+
+        soup = BeautifulSoup(calendar.text, "lxml")
+
+        info = soup.find("div",class_="calendarwrapper")
+        fourWeek = info.find("table")
+        weeks = fourWeek.find("tbody")
+        htmlCodeOfWeeks=weeks.find_all("tr")
+
+    # Метод для получения массива с html кодом каждого дня текущего месяца (элементами массива являются неразобранные блоки html кода каждого дня)
     def Parsing (self):
 
         login = self.dataBase.GetAllUserData(self.chat_id)['login']

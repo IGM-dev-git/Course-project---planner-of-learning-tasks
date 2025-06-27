@@ -1,54 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\",
+  "WorkspaceRootPath": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot (\u0420\u0430\u0437\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0434\u043B\u044F \u043A\u0443\u0440\u0441\u0430\u0447\u0430)\\Course-project---planner-of-learning-tasks\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Parser archive file.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot (\u0420\u0430\u0437\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0434\u043B\u044F \u043A\u0443\u0440\u0441\u0430\u0447\u0430)\\Course-project---planner-of-learning-tasks\\Parser archive file.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:Parser archive file.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Program.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:Program.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Sqlite.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:Sqlite.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\TelegramBotAPI.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:TelegramBotAPI.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Core\\ParserLMS.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot (\u0420\u0430\u0437\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0434\u043B\u044F \u043A\u0443\u0440\u0441\u0430\u0447\u0430)\\Course-project---planner-of-learning-tasks\\Core\\ParserLMS.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:Core\\ParserLMS.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Models\\Task.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:Models\\Task.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot (\u0420\u0430\u0437\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0434\u043B\u044F \u043A\u0443\u0440\u0441\u0430\u0447\u0430)\\Course-project---planner-of-learning-tasks\\Sqlite.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:Sqlite.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Models\\Day.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:Models\\Day.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot (\u0420\u0430\u0437\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0434\u043B\u044F \u043A\u0443\u0440\u0441\u0430\u0447\u0430)\\Course-project---planner-of-learning-tasks\\TelegramBotAPI.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:TelegramBotAPI.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Models\\FreeDay.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot (\u0420\u0430\u0437\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0434\u043B\u044F \u043A\u0443\u0440\u0441\u0430\u0447\u0430)\\Course-project---planner-of-learning-tasks\\Program.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:Program.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot (\u0420\u0430\u0437\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0434\u043B\u044F \u043A\u0443\u0440\u0441\u0430\u0447\u0430)\\Course-project---planner-of-learning-tasks\\Models\\FreeDay.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:Models\\FreeDay.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Core\\Session.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot (\u0420\u0430\u0437\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0434\u043B\u044F \u043A\u0443\u0440\u0441\u0430\u0447\u0430)\\Course-project---planner-of-learning-tasks\\Models\\Day.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:Models\\Day.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot (\u0420\u0430\u0437\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0434\u043B\u044F \u043A\u0443\u0440\u0441\u0430\u0447\u0430)\\Course-project---planner-of-learning-tasks\\Models\\__init__.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:Models\\__init__.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot (\u0420\u0430\u0437\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0434\u043B\u044F \u043A\u0443\u0440\u0441\u0430\u0447\u0430)\\Course-project---planner-of-learning-tasks\\Core\\Session.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:Core\\Session.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Core\\Auth.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot (\u0420\u0430\u0437\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0434\u043B\u044F \u043A\u0443\u0440\u0441\u0430\u0447\u0430)\\Course-project---planner-of-learning-tasks\\Core\\Auth.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:Core\\Auth.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Core\\__Init__.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:Core\\__Init__.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot (\u0420\u0430\u0437\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0434\u043B\u044F \u043A\u0443\u0440\u0441\u0430\u0447\u0430)\\Course-project---planner-of-learning-tasks\\Models\\Task.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:Models\\Task.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Models\\__init__.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:Models\\__init__.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot (\u0420\u0430\u0437\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0434\u043B\u044F \u043A\u0443\u0440\u0441\u0430\u0447\u0430)\\Course-project---planner-of-learning-tasks\\Core\\__Init__.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{55FA1BFD-3BBE-4AA9-A869-34AE8CB1C0EB}|Parser.pyproj|solutionrelative:Core\\__Init__.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,36 +58,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "TelegramBotAPI.py",
-              "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\TelegramBotAPI.py",
+              "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot (\u0420\u0430\u0437\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0434\u043B\u044F \u043A\u0443\u0440\u0441\u0430\u0447\u0430)\\Course-project---planner-of-learning-tasks\\TelegramBotAPI.py",
               "RelativeDocumentMoniker": "TelegramBotAPI.py",
-              "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\TelegramBotAPI.py",
+              "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot (\u0420\u0430\u0437\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0434\u043B\u044F \u043A\u0443\u0440\u0441\u0430\u0447\u0430)\\Course-project---planner-of-learning-tasks\\TelegramBotAPI.py",
               "RelativeToolTip": "TelegramBotAPI.py",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAAAHEAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-05-05T13:40:34.334Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.py",
-              "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Program.py",
+              "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot (\u0420\u0430\u0437\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0434\u043B\u044F \u043A\u0443\u0440\u0441\u0430\u0447\u0430)\\Course-project---planner-of-learning-tasks\\Program.py",
               "RelativeDocumentMoniker": "Program.py",
-              "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Program.py",
+              "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot (\u0420\u0430\u0437\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0434\u043B\u044F \u043A\u0443\u0440\u0441\u0430\u0447\u0430)\\Course-project---planner-of-learning-tasks\\Program.py",
               "RelativeToolTip": "Program.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
@@ -96,38 +100,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "FreeDay.py",
-              "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Models\\FreeDay.py",
+              "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot (\u0420\u0430\u0437\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0434\u043B\u044F \u043A\u0443\u0440\u0441\u0430\u0447\u0430)\\Course-project---planner-of-learning-tasks\\Models\\FreeDay.py",
               "RelativeDocumentMoniker": "Models\\FreeDay.py",
-              "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Models\\FreeDay.py",
+              "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot (\u0420\u0430\u0437\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0434\u043B\u044F \u043A\u0443\u0440\u0441\u0430\u0447\u0430)\\Course-project---planner-of-learning-tasks\\Models\\FreeDay.py",
               "RelativeToolTip": "Models\\FreeDay.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-31T07:07:32.22Z"
+              "WhenOpened": "2025-05-31T07:07:32.22Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Sqlite.py",
-              "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Sqlite.py",
+              "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot (\u0420\u0430\u0437\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0434\u043B\u044F \u043A\u0443\u0440\u0441\u0430\u0447\u0430)\\Course-project---planner-of-learning-tasks\\Sqlite.py",
               "RelativeDocumentMoniker": "Sqlite.py",
-              "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Sqlite.py",
+              "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot (\u0420\u0430\u0437\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0434\u043B\u044F \u043A\u0443\u0440\u0441\u0430\u0447\u0430)\\Course-project---planner-of-learning-tasks\\Sqlite.py",
               "RelativeToolTip": "Sqlite.py",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAnwDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-06-12T17:15:48.214Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "ParserLMS.py",
-              "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Core\\ParserLMS.py",
+              "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot (\u0420\u0430\u0437\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0434\u043B\u044F \u043A\u0443\u0440\u0441\u0430\u0447\u0430)\\Course-project---planner-of-learning-tasks\\Core\\ParserLMS.py",
               "RelativeDocumentMoniker": "Core\\ParserLMS.py",
-              "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Core\\ParserLMS.py",
+              "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot (\u0420\u0430\u0437\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0434\u043B\u044F \u043A\u0443\u0440\u0441\u0430\u0447\u0430)\\Course-project---planner-of-learning-tasks\\Core\\ParserLMS.py",
               "RelativeToolTip": "Core\\ParserLMS.py",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAAAIcAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAACUAAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-05-04T14:00:57.288Z",
               "EditorCaption": ""
@@ -136,58 +141,61 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Session.py",
-              "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Core\\Session.py",
+              "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot (\u0420\u0430\u0437\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0434\u043B\u044F \u043A\u0443\u0440\u0441\u0430\u0447\u0430)\\Course-project---planner-of-learning-tasks\\Core\\Session.py",
               "RelativeDocumentMoniker": "Core\\Session.py",
-              "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Core\\Session.py",
+              "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot (\u0420\u0430\u0437\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0434\u043B\u044F \u043A\u0443\u0440\u0441\u0430\u0447\u0430)\\Course-project---planner-of-learning-tasks\\Core\\Session.py",
               "RelativeToolTip": "Core\\Session.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-04T13:56:55.853Z"
+              "WhenOpened": "2025-05-04T13:56:55.853Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Auth.py",
-              "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Core\\Auth.py",
+              "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot (\u0420\u0430\u0437\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0434\u043B\u044F \u043A\u0443\u0440\u0441\u0430\u0447\u0430)\\Course-project---planner-of-learning-tasks\\Core\\Auth.py",
               "RelativeDocumentMoniker": "Core\\Auth.py",
-              "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Core\\Auth.py",
+              "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot (\u0420\u0430\u0437\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0434\u043B\u044F \u043A\u0443\u0440\u0441\u0430\u0447\u0430)\\Course-project---planner-of-learning-tasks\\Core\\Auth.py",
               "RelativeToolTip": "Core\\Auth.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-04T07:46:27.553Z"
+              "WhenOpened": "2025-05-04T07:46:27.553Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Parser archive file.py",
-              "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Parser archive file.py",
+              "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot (\u0420\u0430\u0437\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0434\u043B\u044F \u043A\u0443\u0440\u0441\u0430\u0447\u0430)\\Course-project---planner-of-learning-tasks\\Parser archive file.py",
               "RelativeDocumentMoniker": "Parser archive file.py",
-              "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Parser archive file.py",
+              "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot (\u0420\u0430\u0437\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0434\u043B\u044F \u043A\u0443\u0440\u0441\u0430\u0447\u0430)\\Course-project---planner-of-learning-tasks\\Parser archive file.py",
               "RelativeToolTip": "Parser archive file.py",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAAAJsAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAJYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-03-11T14:32:17.409Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "__init__.py (Models)",
-              "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Models\\__init__.py",
+              "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot (\u0420\u0430\u0437\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0434\u043B\u044F \u043A\u0443\u0440\u0441\u0430\u0447\u0430)\\Course-project---planner-of-learning-tasks\\Models\\__init__.py",
               "RelativeDocumentMoniker": "Models\\__init__.py",
-              "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Models\\__init__.py",
+              "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot (\u0420\u0430\u0437\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0434\u043B\u044F \u043A\u0443\u0440\u0441\u0430\u0447\u0430)\\Course-project---planner-of-learning-tasks\\Models\\__init__.py",
               "RelativeToolTip": "Models\\__init__.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-04T16:06:46.245Z"
+              "WhenOpened": "2025-05-04T16:06:46.245Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "__init__.py (Core)",
-              "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Core\\__Init__.py",
+              "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot (\u0420\u0430\u0437\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0434\u043B\u044F \u043A\u0443\u0440\u0441\u0430\u0447\u0430)\\Course-project---planner-of-learning-tasks\\Core\\__Init__.py",
               "RelativeDocumentMoniker": "Core\\__Init__.py",
-              "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Core\\__Init__.py",
+              "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot (\u0420\u0430\u0437\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0434\u043B\u044F \u043A\u0443\u0440\u0441\u0430\u0447\u0430)\\Course-project---planner-of-learning-tasks\\Core\\__Init__.py",
               "RelativeToolTip": "Core\\__Init__.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
@@ -195,11 +203,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Task.py",
-              "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Models\\Task.py",
+              "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot (\u0420\u0430\u0437\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0434\u043B\u044F \u043A\u0443\u0440\u0441\u0430\u0447\u0430)\\Course-project---planner-of-learning-tasks\\Models\\Task.py",
               "RelativeDocumentMoniker": "Models\\Task.py",
-              "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Models\\Task.py",
+              "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot (\u0420\u0430\u0437\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0434\u043B\u044F \u043A\u0443\u0440\u0441\u0430\u0447\u0430)\\Course-project---planner-of-learning-tasks\\Models\\Task.py",
               "RelativeToolTip": "Models\\Task.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
@@ -209,13 +217,14 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Day.py",
-              "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Models\\Day.py",
+              "DocumentMoniker": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot (\u0420\u0430\u0437\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0434\u043B\u044F \u043A\u0443\u0440\u0441\u0430\u0447\u0430)\\Course-project---planner-of-learning-tasks\\Models\\Day.py",
               "RelativeDocumentMoniker": "Models\\Day.py",
-              "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\Course project\\Course-project---planner-of-learning-tasks\\Models\\Day.py",
+              "ToolTip": "C:\\Users\\\u0418\u0432\u0430\u043D\\Desktop\\\u0424\u0430\u0439\u043B\u044B \u0440\u0430\u0431\u043E\u0442 HSE\\Python Telegram Bot (\u0420\u0430\u0437\u043D\u044B\u0435 \u0444\u0430\u0439\u043B\u044B \u0434\u043B\u044F \u043A\u0443\u0440\u0441\u0430\u0447\u0430)\\Course-project---planner-of-learning-tasks\\Models\\Day.py",
               "RelativeToolTip": "Models\\Day.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-03T11:58:00.69Z"
+              "WhenOpened": "2025-05-03T11:58:00.69Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -20,7 +20,7 @@ class AuthLMS:
         query_params = parse_qs(parsed_url.query)  # Разбираем параметры запроса
 
         # Извлекаем нужные значения
-        session_code = query_params.get("session_code", [""])[0] # что за синтаксис такой?
+        session_code = query_params.get("session_code", [""])[0] 
         execution = query_params.get("execution", [""])[0]
         client_id = query_params.get("client_id", [""])[0]
         tab_id = query_params.get("tab_id", [""])[0]
@@ -32,7 +32,7 @@ class AuthLMS:
 
 
         # Создание словаря для Post запроса
-        data = {"session_code": session_code, "execution": execution,"client_id": client_id,"tab_id": tab_id,"username": "imgromov@edu.hse.ru","password": "HF$W1q?LYYu@","credentialId": "" }
+        data = {"session_code": session_code, "execution": execution,"client_id": client_id,"tab_id": tab_id,"username": login,"password": password,"credentialId": "" }
 
         result = self.curSession.workSession.post(action, data=data,headers=self.curSession.header,allow_redirects=True) #Отправка первого пост запроса с параметрами 
 
@@ -50,6 +50,8 @@ class AuthLMS:
     
             # Отправляем финальный запрос
             final_response = self.curSession.workSession.post(form_action, data=form_data, headers=self.curSession.header, allow_redirects=True)
+
+    
 
 
 
